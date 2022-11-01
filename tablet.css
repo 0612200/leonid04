@@ -1,0 +1,60 @@
+@media(max-width:960px){
+    nav{
+        display: none;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .profile__foto{
+        flex-direction: center;
+    }
+    .profile__text{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .profile__none{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-mim{
+      /* font-size: 140px; */
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+      
+    }
+    .section-title{
+       display: grid;
+       align-items: center;
+       font-size: 10rem;
+    }
+    .description__text{
+        display: flex;
+        font-size: 24px;
+        flex-direction: column;
+        align-self: center;
+    }
+    .skills__icon{
+        padding: 50px;
+    }
+    .skills__title{
+        display: grid;
+        align-self: flex-start;
+        font-size: 3rem;
+    }
+    .skills__container{
+        gap: 50px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 600px;
+    }
+    .projetos{
+        padding: 50;
+        display: flex;
+        justify-content: center;
+        height: 110rem;
+    }
+}
